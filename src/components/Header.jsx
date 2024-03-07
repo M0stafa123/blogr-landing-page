@@ -150,7 +150,7 @@ const Header = () => {
         <h2 className="text-4xl w-11/12 mx-auto mb-8 md:text-6xl font-light">
           A modern publishing platform
         </h2>
-        <p className=" w-11/12 mx-auto text-xl md:text-4xl text-footerText  text-b mb-8">
+        <p className=" w-11/12 mx-auto text-xl md:text-4xl max-w-[600px] text-footerText  text-b mb-8">
           Grow your audience and build your online brand
         </p>
       </div>

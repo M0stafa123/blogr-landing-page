@@ -4,8 +4,8 @@ const ForFuture = () => {
       <h2 className="text-heading text-2xl text-center my-10 font-Overpass  font-semibold">
         Designed for the future
       </h2>
-      <div className="md:flex items-center gap-5">
-        <section className="my-10 order-1">
+      <div className="md:flex items-center gap-5  mx-auto ">
+        <section className="my-10 order-1 ">
           <img
             className="block md:hidden  mx-auto  "
             src="./images/illustration-editor-mobile.svg"
