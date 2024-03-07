@@ -8,8 +8,8 @@ const StateOfArt = () => {
           alt="illustration-phones"
         />
       </section>
-      <section className=" w-11/12 mx-auto relative top-[-150px] md:static md:w-[500px] md:text-start p-4">
-        <h2 className=" text-2xl font-medium my-5 text-footerText md:text-4xl">
+      <section className=" w-11/12 mx-auto relative top-[-150px] md:static font-Overpass md:w-[500px] md:text-start p-4">
+        <h2 className=" text-2xl font-bold my-5 md:text-4xl">
           State of the Art Infrastructure
         </h2>
         <p className=" text-footerText md:text-lg">

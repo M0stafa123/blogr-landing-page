@@ -7,7 +7,7 @@ const Header = () => {
     setActive(active === index ? null : index);
   };
   return (
-    <header className=" relative bg-introMoblie text-white h-[70vh] text-center rounded-bl-[4.5rem] z-10 overflow-hidden ">
+    <header className=" relative bg-introMoblie text-white h-[70vh] min-h-[350px] text-center rounded-bl-[4.5rem] z-10 overflow-hidden ">
       <nav className="flex justify-between p-8 items-center mb-20 gap-10 relative">
         <span>
           <img src="./images/logo.svg" alt="logo" />
@@ -37,7 +37,9 @@ const Header = () => {
                 <li
                   onClick={() => toggle(0)}
                   className={`flex gap-2 items-center justify-center relative after:absolute after:h-[2px]  after:transition-all after:top-full after:bg-white after:left-0  ${
-                    active === 0 ? "after:w-full" : "after:w-0"
+                    active === 0
+                      ? "after:w-full opacity-90 md:opacity-100"
+                      : "after:w-0 "
                   }`}
                 >
                   Product
@@ -70,7 +72,9 @@ const Header = () => {
                 <li
                   onClick={() => toggle(1)}
                   className={`flex gap-2 items-center justify-center relative after:absolute after:h-[2px]  after:transition-all after:top-full after:bg-white after:left-0  ${
-                    active === 1 ? "after:w-full" : "after:w-0"
+                    active === 1
+                      ? "after:w-full opacity-90 md:opacity-100"
+                      : "after:w-0"
                   }`}
                 >
                   Company
@@ -102,7 +106,9 @@ const Header = () => {
                 <li
                   onClick={() => toggle(2)}
                   className={`flex gap-2 items-center justify-center relative after:absolute after:h-[2px]  after:transition-all after:top-full after:bg-white after:left-0  ${
-                    active === 2 ? "after:w-full" : "after:w-0"
+                    active === 2
+                      ? "after:w-full opacity-90 md:opacity-100"
+                      : "after:w-0"
                   }`}
                 >
                   Connect
@@ -140,19 +146,19 @@ const Header = () => {
           </section>
         </div>
       </nav>
-      <div>
-        <h2 className="text-4xl w-11/12 mx-auto mb-8 md:text-6xl">
+      <div className="font-Overpass">
+        <h2 className="text-4xl w-11/12 mx-auto mb-8 md:text-6xl font-light">
           A modern publishing platform
         </h2>
-        <p className=" w-11/12 mx-auto text-xl md:text-4xl mb-8">
+        <p className=" w-11/12 mx-auto text-xl md:text-4xl text-footerText  text-b mb-8">
           Grow your audience and build your online brand
         </p>
       </div>
       <div className="flex gap-4 justify-center items-center">
-        <button className="btn bg-white hover:bg-CTAhoverbackground hover:text-white transition-all text-CTAtext font-bold ">
+        <button className="btn bg-white hover:bg-CTAhoverbackground  hover:text-white transition-all text-CTAtext font-bold ">
           Start for Free
         </button>
-        <button className="btn font-bold hover:bg-white hover:text-CTAtext transition-all">
+        <button className="btn font-bold hover:bg-white hover:text-CTAtext  transition-all">
           Learn More
         </button>
       </div>

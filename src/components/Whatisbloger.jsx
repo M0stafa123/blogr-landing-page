@@ -13,7 +13,7 @@ const Whatisbloger = () => {
           alt="laptop-desktop"
         />
       </section>
-      <section className="text-center md:w-[550px] md:text-start p-4">
+      <section className="text-center md:w-[550px] md:text-start font-Overpass p-4">
         <div>
           <h2 className="text-heading text-2xl md:text-4xl my-5 ">
             Free, open, simple

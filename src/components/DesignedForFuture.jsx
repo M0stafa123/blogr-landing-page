@@ -1,7 +1,7 @@
 const ForFuture = () => {
   return (
     <article>
-      <h2 className="text-heading text-2xl text-center my-10 font-semibold">
+      <h2 className="text-heading text-2xl text-center my-10 font-Overpass  font-semibold">
         Designed for the future
       </h2>
       <div className="md:flex items-center gap-5">
@@ -17,7 +17,7 @@ const ForFuture = () => {
             alt="illustration-editor-desktop"
           />
         </section>
-        <section className="text-center w-11/12 mx-auto md:w-[550px] md:text-start p-4">
+        <section className="text-center w-11/12 mx-auto md:w-[550px] md:text-start font-Overpass p-4">
           <div className="my-10">
             <h2 className="text-2xl text-heading mb-4 md:text-4xl ">
               Introducing an extensible editor

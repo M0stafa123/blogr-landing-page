@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className=" bg-footerBackground  rounded-tr-[4.5rem] ">
+    <footer className=" bg-footerBackground  rounded-tr-[4.5rem]  font-Ubuntu">
       <div className="flex flex-col md:flex-row md:justify-around md:items-start md:mx-auto md:w-[900px] py-10 items-center justify-center gap-10">
         <img src="./images/logo.svg" alt="logo" />
         <ul>

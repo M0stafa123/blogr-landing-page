@@ -20,6 +20,7 @@ module.exports = {
       },
       fontFamily: {
         Ubuntu: "Ubuntu , sans-serif",
+        Overpass: "Overpass , sans-serif",
       },
     },
   },

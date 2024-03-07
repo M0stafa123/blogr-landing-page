@@ -1,14 +1,25 @@
 @font-face {
   font-family: "Ubuntu";
-  src: url("../public/Fonts/Ubuntu/Ubuntu-Bold.ttf") format("truetype"),
-    url("../public/Fonts/Ubuntu/Ubuntu-Medium.ttf") format("truetype"),
-    url("../public/Fonts/Ubuntu/Ubuntu-Regular.ttf") format("truetype");
-  /* Add more src declarations for different font formats if needed */
+  src: url("../public/Fonts/Ubuntu/Ubuntu-Regular.ttf") format("truetype");
+  font-weight: 300;
 }
-
+@font-face {
+  font-family: "Ubuntu";
+  src: url("../public/Fonts/Ubuntu/Ubuntu-Medium.ttf") format("truetype");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Ubuntu";
+  src: url("../public/Fonts/Ubuntu/Ubuntu-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
 @font-face {
   font-family: "Overpass";
-  src: url("../public/Fonts/Overpass/static/Overpass-SemiBold.ttf") format("truetype"),
-    url("../public/Fonts/Overpass/static/Overpass-Light.ttf") format("truetype");
-  /* Add more src declarations for different font formats if needed */
+  src: url("../public/Fonts/Overpass/static/Overpass-Light.ttf") format("truetype");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Overpass";
+  src: url("../public/Fonts/Overpass/static/Overpass-SemiBold.ttf") format("truetype");
+  font-weight: 600;
 }

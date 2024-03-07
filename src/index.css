@@ -1,31 +1,19 @@
+@import "./fonts.css";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@font-face {
-  font-family: "Ubuntu";
-  src: url("../public/Fonts/Ubuntu/Ubuntu-Regular.ttf"),
-    url("../public/Fonts/Ubuntu/Ubuntu-Medium.ttf"),
-    url("../public/Fonts/Ubuntu/Ubuntu-Bold.ttf");
-  font-display: swap;
-  /* Add more src declarations for different font formats if needed */
-}
-@font-face {
-  font-family: "Overpass";
 
-  src: url("../public/Fonts/Overpass/static/Overpass-SemiBold.ttf") format("truetype"),
-    url("../public/Fonts/Overpass/static/Overpass-Light.ttf") format("truetype");
-  font-display: swap;
-
-  /* Add more src declarations for different font formats if needed */
-}
 /* global */
 .btn {
   @apply p-4 border border-white rounded-full w-[150px];
 }
 /*  */
 /* header */
+header nav div > ul > li:first-of-type {
+  @apply text-heading md:text-white font-semibold w-fit md:w-auto mx-auto;
+}
 header nav ul {
-  @apply w-full select-none md:w-auto;
+  @apply w-full select-none md:w-auto font-Overpass;
 }
 header nav ul li {
   @apply md:cursor-pointer w-full relative;
